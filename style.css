@@ -213,8 +213,7 @@ a {
     height: 55%;
     position: absolute;
     bottom: -20px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     margin-top: -600px; }
 
 .info {
@@ -261,15 +260,12 @@ a {
   .info .venue {
     position: relative;
     width: 60%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%);
-            clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%); }
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%); }
     @media only screen and (max-width: 786px) {
       .info .venue {
         width: 100%;
-        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
-                clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%); } }
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%); } }
   .info .tag {
     background-color: white;
     position: relative;
